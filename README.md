@@ -6,7 +6,7 @@
 
 ### [IP白名单过滤器](https://github.com/isunimp/common-util/blob/master/src/main/java/com/isunimp/common/util/IPWhiteFiliter.java)
 
-IP白名单，也可以当成黑名单使用，内存动态增长，存储所有IP地址只需要512M。
+线程安全的IP白名单，也可以当成黑名单使用，内存动态增长，存储所有IP地址只需要512M。
 
 ### [计算器](https://github.com/isunimp/common-util/blob/master/src/main/java/com/isunimp/common/util/Calculator.java)
 
