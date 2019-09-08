@@ -10,7 +10,9 @@ import com.zaxxer.hikari.HikariConfig;
  */
 public class DataManagerConfig extends HikariConfig {
 
+    // 定量提交条数
     private int commitCountThresholds = 3000;
+    // 定时提交时间，MILLISECONDS
     private long commitTimeThresholds = 1000 * 60;
 
     public int getCommitCountThresholds() {

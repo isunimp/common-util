@@ -68,6 +68,9 @@ public class DataManager {
         if (scheduledFuture != null)
             scheduledFuture.cancel(false);
 
+        if (config.getCommitTimeThresholds() <= 0)
+            return;
+
         this.scheduledFuture = scheduledExecutor.schedule(new Runnable() {
             @Override
             public void run() {
