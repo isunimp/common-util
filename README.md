@@ -10,7 +10,7 @@
 
 ### [计算器](https://github.com/isunimp/common-util/blob/master/src/main/java/com/isunimp/common/util/Calculator.java)
 
-简易计算器，支持 +，-，*，/，() 运算符。
+简易计算器，支持小数，支持 +，-，*，/，() 运算符。
 
 ### [CLH自旋锁的实现](https://github.com/isunimp/common-util/blob/master/src/main/java/com/isunimp/common/util/CLHLock.java)
 
