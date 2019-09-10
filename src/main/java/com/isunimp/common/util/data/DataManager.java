@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * com.isunimp.common.util.datamanager.DataManager class
  *
- * @author isunimp
+ * @author renguiquan
  * @date 2019/9/6
  */
 public class DataManager {

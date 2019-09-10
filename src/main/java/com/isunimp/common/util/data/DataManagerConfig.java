@@ -5,7 +5,7 @@ import com.zaxxer.hikari.HikariConfig;
 /**
  * DataManagerConfig class
  *
- * @author isunimp
+ * @author renguiquan
  * @date 2019/9/6
  */
 public class DataManagerConfig extends HikariConfig {
